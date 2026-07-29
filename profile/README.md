@@ -1,11 +1,14 @@
-# Codevetter
+# CodeVetter
 
 **Desktop-first AI code review for agent-generated code.**
 
-Codevetter builds tools for engineers shipping AI-generated PRs. Our flagship
+CodeVetter builds tools for engineers shipping AI-generated PRs. Our flagship
 product is [CodeVetter](https://codevetter.com) — a local-first code review
 workbench with a Tauri shell, SQLite storage, and evidence-backed review loops.
 Your repo never hits a central server.
+
+Created and maintained by [Sarthak Agrawal](https://sarthakagrawal.dev) as
+part of his independent Foundry product fleet.
 
 ## What we ship
 
