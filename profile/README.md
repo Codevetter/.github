@@ -1,26 +1,27 @@
 # CodeVetter
 
-**Desktop-first AI code review for agent-generated code.**
+**Execution-backed verification and repository intelligence for agent-generated code.**
 
 CodeVetter builds tools for engineers shipping AI-generated PRs. Our flagship
-product is [CodeVetter](https://codevetter.com) — a local-first code review
-workbench with a Tauri shell, SQLite storage, and evidence-backed review loops.
-Your repo never hits a central server.
+product is [CodeVetter](https://codevetter.com) — an execution-backed
+verification workbench for coding-agent changes: a native macOS app (SwiftUI)
+with a Rust verification core, CLI, and MCP server. Task, exact change,
+executable evidence, and measurable verdict stay local.
 
 Created and maintained by [Sarthak Agrawal](https://sarthakagrawal.dev) as
 part of his independent Foundry product fleet.
 
 ## What we ship
 
-- **[CodeVetter](https://codevetter.com)** — desktop AI code review workbench (macOS, ISC license). Local SQLite, Tauri shell, optional Claude/Codex/Gemini CLI backends.
-- **[Starboard](https://starboard.codevetter.com)** — GitHub stars organizer with semantic search. A sub-product for repo intelligence.
+- **[CodeVetter](https://codevetter.com)** — execution-backed verification for coding-agent changes (macOS, ISC license). Native SwiftUI app, Rust core/CLI/MCP, reproducible evidence bundles.
+- **[Starboard](https://starboard.codevetter.com)** — project-aware GitHub repository discovery and tool intelligence. Find similar projects and audit the evidence behind each tool suggestion.
 
 ## Product domains
 
 | Product | URL | What it does |
 |---|---|---|
-| CodeVetter | https://codevetter.com | Desktop-first AI code review workbench |
-| Starboard | https://starboard.codevetter.com | GitHub stars organizer with semantic search |
+| CodeVetter | https://codevetter.com | Execution-backed verification for coding-agent changes |
+| Starboard | https://starboard.codevetter.com | Project-aware repository discovery and tool intelligence |
 
 ## Fleet hub
 
